@@ -1,0 +1,19 @@
+-Improper configuration of framework/permissions to users
+-Remove unused features
+-Remove default accounts and passwords
+-Disabling/encrypting routes/directories
+-Update latest security features in frameworks
+-Error handeling should be custom and not give any tips to the hacker
+-Developing a repeatable patching schedule
+
+Security misconfiguration occurs when setting are not well defined inte the cofiguration process or maintained and
+deployed with default settings
+
+number 5
+
+Example:
+
+The application server comes with sample applications not removed from the production server. 
+These sample applications have known security flaws attackers use to compromise the server. 
+Suppose one of these applications is the admin console, and default accounts weren't changed. 
+In that case, the attacker logs in with default passwords and takes over.
